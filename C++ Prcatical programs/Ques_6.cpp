@@ -1,3 +1,4 @@
+//roots of quatractic equations
 #include<iostream>
 #include<cmath>
 

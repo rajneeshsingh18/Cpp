@@ -1,3 +1,19 @@
+/*  
+
+Questions on inheritance
+
+Q1. Create a class: Person with member variables: name and age. Create two overloaded
+constructors for this class along with a copy constructor. Also create a destructor. Include member function, get_data(), to get the name and age of the person. Define a member function, display_data() to display the member variables. Define objects for this class and showcase the
+use of each of these functions.
+
+Q2. . Inherit the above defined class: Person to create two new classes: Teacher and Student. 
+Teacher class should have a data member Department and salary .
+student class should have data member marks. 
+In both the new classes, override the get_data() function of the Person class. Also include new functions get_specialization() and get_class() for the Teacher and Student class respectively. Create objects of these classes. Use the member functions suitably to show the properties of
+Inheritance
+
+*/
+
 # include <iostream>
 #include <cstring>
 
