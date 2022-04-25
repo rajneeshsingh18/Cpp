@@ -16,7 +16,7 @@ public:
 
 void binary ::read(void)
 {
-    cout << "Enter a binary number : ";
+    cout << "\nEnter a binary number : ";
     cin >> s;
 }
 
@@ -50,7 +50,7 @@ void binary ::ones_compliment()
 }
 
 void binary::display(void){
-    cout<<"Displaying binary number "<<endl;
+    cout<<"\nDisplaying binary number :  ";
 
     for(int i=0 ; i<s.length();i++){
         cout<<s.at(i);
@@ -67,7 +67,7 @@ int main()
     bin.display();
     
     bin.ones_compliment();
-    cout<<"After ones compliment : "<<endl;
+    cout<<"\nAfter ones compliment : "<<endl;
     bin.display();
 
 
